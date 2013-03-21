@@ -5,15 +5,15 @@ npm build .
 ```
 
 -------------------------------
-Loading Firmware onto I/O Board
-(From firmware directory)
+**Loading Firmware onto I/O Board (From firmware directory)
 -------------------------------
 
+```
 sudo ./accesloader.pl
+```
 
 * Currently on Ubuntu 12.04 Firmware needs to be manually loaded when the USB is connected
 
--------------------------------
 -------------------------------
 
 * Requirements
