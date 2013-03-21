@@ -5,10 +5,11 @@ npm build .
 ```
 
 -------------------------------
-**Loading Firmware onto I/O Board (From firmware directory)
+Loading Firmware onto I/O Board
 -------------------------------
 
 ```
+cd firmware
 sudo ./accesloader.pl
 ```
 
