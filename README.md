@@ -17,5 +17,10 @@ sudo ./accesloader.pl
 * Requirements
   - libusb 1.0                 - http://libusb.org (apt-get install libusb-dev)
   - nodejs                     - http://nodejs.org
-  - AIOUSB API Reference       - http://accesio.com/MANUALS/AIOUSB_API_Reference.html
+  - AIOUSB API Linux Drivers   - http://accesio.com/go.cgi?p=../usb/usb-iiro-16.html
   - fxload                     - apt-get install fxload
+
+* Resources
+ - Accesio Manual 		- http://accesio.com/MANUALS/USB-IIRO-16.PDF
+ - AIOUSB API Reference - http://accesio.com/MANUALS/AIOUSB_API_Reference.html
+ - Accesio Product Page - http://accesio.com/go.cgi?p=../usb/usb-iiro-16.html
