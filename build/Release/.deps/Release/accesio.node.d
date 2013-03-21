@@ -1,0 +1,1 @@
+cmd_Release/accesio.node := ln -f "Release/obj.target/accesio.node" "Release/accesio.node" 2>/dev/null || (rm -rf "Release/accesio.node" && cp -af "Release/obj.target/accesio.node" "Release/accesio.node")

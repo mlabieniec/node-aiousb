@@ -1,0 +1,1 @@
+cmd_Release/obj.target/accesio.node := flock ./Release/linker.lock g++ -shared -pthread -rdynamic -m64  -Wl,-soname=accesio.node -o Release/obj.target/accesio.node -Wl,--start-group Release/obj.target/accesio/src/accesio.o -Wl,--end-group -lusb-1.0

@@ -1,0 +1,1 @@
+cmd_Release/obj.target/aiousb.node := flock ./Release/linker.lock g++ -shared -pthread -rdynamic -m64  -Wl,-soname=aiousb.node -o Release/obj.target/aiousb.node -Wl,--start-group Release/obj.target/aiousb/src/aiousb.o Release/obj.target/aiousb/src/device.o -Wl,--end-group -lusb-1.0
